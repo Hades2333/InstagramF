@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>439754619850-46vrg36rkt4clac3mns40phb5msf1ils.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.439754619850-46vrg36rkt4clac3mns40phb5msf1ils</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDmz0coS_G15yH4Hkrt1uQNDL12Z936CEg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>439754619850</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>HellizarApps.com.InstagramF</string>
+	<key>PROJECT_ID</key>
+	<string>instagram-af876</string>
+	<key>STORAGE_BUCKET</key>
+	<string>instagram-af876.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:439754619850:ios:04c33ca6305ed703c4ad33</string>
+</dict>
+</plist>
