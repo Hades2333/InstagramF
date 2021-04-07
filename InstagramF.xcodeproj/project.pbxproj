@@ -23,6 +23,7 @@
 		1474003E261DC78700A6D4B4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1474003D261DC78700A6D4B4 /* Extensions.swift */; };
 		14740042261DD85900A6D4B4 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14740041261DD85900A6D4B4 /* LoginController.swift */; };
 		14740045261DD86700A6D4B4 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14740044261DD86700A6D4B4 /* RegistrationController.swift */; };
+		14740048261DE1E600A6D4B4 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14740047261DE1E600A6D4B4 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		1474003D261DC78700A6D4B4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		14740041261DD85900A6D4B4 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		14740044261DD86700A6D4B4 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		14740047261DE1E600A6D4B4 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				1474003A261DC6C100A6D4B4 /* FeedCell.swift */,
+				14740047261DE1E600A6D4B4 /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14740048261DE1E600A6D4B4 /* CustomTextField.swift in Sources */,
 				14740009261DAE4800A6D4B4 /* ViewController.swift in Sources */,
 				14740042261DD85900A6D4B4 /* LoginController.swift in Sources */,
 				1474003B261DC6C100A6D4B4 /* FeedCell.swift in Sources */,
