@@ -11,9 +11,14 @@
 		14740007261DAE4800A6D4B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14740006261DAE4800A6D4B4 /* SceneDelegate.swift */; };
 		14740009261DAE4800A6D4B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14740008261DAE4800A6D4B4 /* ViewController.swift */; };
 		1474000C261DAE4800A6D4B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1474000A261DAE4800A6D4B4 /* Main.storyboard */; };
-		1474000E261DAE4900A6D4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1474000D261DAE4900A6D4B4 /* Assets.xcassets */; };
 		14740011261DAE4900A6D4B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1474000F261DAE4900A6D4B4 /* LaunchScreen.storyboard */; };
 		14740021261DB12800A6D4B4 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14740020261DB12800A6D4B4 /* MainTabController.swift */; };
+		14740025261DB2E900A6D4B4 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14740024261DB2E900A6D4B4 /* FeedController.swift */; };
+		14740028261DB2FE00A6D4B4 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14740027261DB2FE00A6D4B4 /* SearchController.swift */; };
+		1474002B261DB31B00A6D4B4 /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1474002A261DB31B00A6D4B4 /* ImageSelectorController.swift */; };
+		1474002E261DB33000A6D4B4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1474002D261DB33000A6D4B4 /* NotificationController.swift */; };
+		14740031261DB34400A6D4B4 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14740030261DB34400A6D4B4 /* ProfileController.swift */; };
+		14740038261DB75C00A6D4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14740037261DB75C00A6D4B4 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,15 @@
 		14740006261DAE4800A6D4B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		14740008261DAE4800A6D4B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1474000B261DAE4800A6D4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1474000D261DAE4900A6D4B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14740010261DAE4900A6D4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14740012261DAE4900A6D4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14740020261DB12800A6D4B4 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		14740024261DB2E900A6D4B4 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		14740027261DB2FE00A6D4B4 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		1474002A261DB31B00A6D4B4 /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
+		1474002D261DB33000A6D4B4 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		14740030261DB34400A6D4B4 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		14740037261DB75C00A6D4B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +70,7 @@
 				14740006261DAE4800A6D4B4 /* SceneDelegate.swift */,
 				14740008261DAE4800A6D4B4 /* ViewController.swift */,
 				1474000A261DAE4800A6D4B4 /* Main.storyboard */,
-				1474000D261DAE4900A6D4B4 /* Assets.xcassets */,
+				14740037261DB75C00A6D4B4 /* Assets.xcassets */,
 				1474000F261DAE4900A6D4B4 /* LaunchScreen.storyboard */,
 				14740012261DAE4900A6D4B4 /* Info.plist */,
 			);
@@ -85,6 +95,11 @@
 			isa = PBXGroup;
 			children = (
 				14740020261DB12800A6D4B4 /* MainTabController.swift */,
+				14740024261DB2E900A6D4B4 /* FeedController.swift */,
+				14740027261DB2FE00A6D4B4 /* SearchController.swift */,
+				1474002A261DB31B00A6D4B4 /* ImageSelectorController.swift */,
+				1474002D261DB33000A6D4B4 /* NotificationController.swift */,
+				14740030261DB34400A6D4B4 /* ProfileController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -176,7 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14740011261DAE4900A6D4B4 /* LaunchScreen.storyboard in Resources */,
-				1474000E261DAE4900A6D4B4 /* Assets.xcassets in Resources */,
+				14740038261DB75C00A6D4B4 /* Assets.xcassets in Resources */,
 				1474000C261DAE4800A6D4B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,7 +204,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				14740009261DAE4800A6D4B4 /* ViewController.swift in Sources */,
+				1474002B261DB31B00A6D4B4 /* ImageSelectorController.swift in Sources */,
+				1474002E261DB33000A6D4B4 /* NotificationController.swift in Sources */,
+				14740028261DB2FE00A6D4B4 /* SearchController.swift in Sources */,
 				14740005261DAE4800A6D4B4 /* AppDelegate.swift in Sources */,
+				14740031261DB34400A6D4B4 /* ProfileController.swift in Sources */,
+				14740025261DB2E900A6D4B4 /* FeedController.swift in Sources */,
 				14740021261DB12800A6D4B4 /* MainTabController.swift in Sources */,
 				14740007261DAE4800A6D4B4 /* SceneDelegate.swift in Sources */,
 			);
