@@ -13,6 +13,7 @@
 		1474000C261DAE4800A6D4B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1474000A261DAE4800A6D4B4 /* Main.storyboard */; };
 		1474000E261DAE4900A6D4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1474000D261DAE4900A6D4B4 /* Assets.xcassets */; };
 		14740011261DAE4900A6D4B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1474000F261DAE4900A6D4B4 /* LaunchScreen.storyboard */; };
+		14740021261DB12800A6D4B4 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14740020261DB12800A6D4B4 /* MainTabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1474000D261DAE4900A6D4B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14740010261DAE4900A6D4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14740012261DAE4900A6D4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14740020261DB12800A6D4B4 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,12 @@
 		14740003261DAE4700A6D4B4 /* InstagramF */ = {
 			isa = PBXGroup;
 			children = (
+				1474001F261DB04F00A6D4B4 /* Model */,
+				1474001E261DB04C00A6D4B4 /* View */,
+				1474001D261DB04500A6D4B4 /* ViewModel */,
+				1474001C261DB04000A6D4B4 /* Controller */,
+				1474001B261DB03A00A6D4B4 /* API */,
+				14740019261DAF3C00A6D4B4 /* Utils */,
 				14740004261DAE4800A6D4B4 /* AppDelegate.swift */,
 				14740006261DAE4800A6D4B4 /* SceneDelegate.swift */,
 				14740008261DAE4800A6D4B4 /* ViewController.swift */,
@@ -57,6 +65,49 @@
 				14740012261DAE4900A6D4B4 /* Info.plist */,
 			);
 			path = InstagramF;
+			sourceTree = "<group>";
+		};
+		14740019261DAF3C00A6D4B4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1474001B261DB03A00A6D4B4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1474001C261DB04000A6D4B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				14740020261DB12800A6D4B4 /* MainTabController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1474001D261DB04500A6D4B4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1474001E261DB04C00A6D4B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1474001F261DB04F00A6D4B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		1474FFF8261DAE4700A6D4B4 = {
@@ -139,6 +190,7 @@
 			files = (
 				14740009261DAE4800A6D4B4 /* ViewController.swift in Sources */,
 				14740005261DAE4800A6D4B4 /* AppDelegate.swift in Sources */,
+				14740021261DB12800A6D4B4 /* MainTabController.swift in Sources */,
 				14740007261DAE4800A6D4B4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
