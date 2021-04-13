@@ -33,6 +33,7 @@
 		14C745BD2625DFDF00653AF2 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C745BC2625DFDF00653AF2 /* UserService.swift */; };
 		14C745C02625E04900653AF2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C745BF2625E04900653AF2 /* Constants.swift */; };
 		14C745C32625E50A00653AF2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C745C22625E50A00653AF2 /* User.swift */; };
+		14C745C62625F46F00653AF2 /* ProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C745C52625F46F00653AF2 /* ProfileHeaderViewModel.swift */; };
 		D8A124C401EED2E7CCB63113 /* Pods_InstagramF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B8219B62F59595520DCDED /* Pods_InstagramF.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		14C745BC2625DFDF00653AF2 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		14C745BF2625E04900653AF2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		14C745C22625E50A00653AF2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		14C745C52625F46F00653AF2 /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderViewModel.swift; sourceTree = "<group>"; };
 		52B8219B62F59595520DCDED /* Pods_InstagramF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF11555FC9133D7458562ED7 /* Pods-InstagramF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramF.debug.xcconfig"; path = "Target Support Files/Pods-InstagramF/Pods-InstagramF.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				1474004A261DEC7C00A6D4B4 /* AuthenticationViewModel.swift */,
+				14C745C52625F46F00653AF2 /* ProfileHeaderViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				14740005261DAE4800A6D4B4 /* AppDelegate.swift in Sources */,
 				14C745C32625E50A00653AF2 /* User.swift in Sources */,
 				14740031261DB34400A6D4B4 /* ProfileController.swift in Sources */,
+				14C745C62625F46F00653AF2 /* ProfileHeaderViewModel.swift in Sources */,
 				14C745C02625E04900653AF2 /* Constants.swift in Sources */,
 				14740025261DB2E900A6D4B4 /* FeedController.swift in Sources */,
 				14740021261DB12800A6D4B4 /* MainTabController.swift in Sources */,
