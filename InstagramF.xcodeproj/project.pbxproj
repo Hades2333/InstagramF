@@ -30,6 +30,9 @@
 		1475834826259018005C41BB /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475834726259018005C41BB /* AuthService.swift */; };
 		1475834B26259ED5005C41BB /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475834A26259ED5005C41BB /* ProfileCell.swift */; };
 		1475834E26259EE5005C41BB /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475834D26259EE5005C41BB /* ProfileHeader.swift */; };
+		14C745BD2625DFDF00653AF2 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C745BC2625DFDF00653AF2 /* UserService.swift */; };
+		14C745C02625E04900653AF2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C745BF2625E04900653AF2 /* Constants.swift */; };
+		14C745C32625E50A00653AF2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C745C22625E50A00653AF2 /* User.swift */; };
 		D8A124C401EED2E7CCB63113 /* Pods_InstagramF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B8219B62F59595520DCDED /* Pods_InstagramF.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +63,9 @@
 		1475834726259018005C41BB /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		1475834A26259ED5005C41BB /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		1475834D26259EE5005C41BB /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		14C745BC2625DFDF00653AF2 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		14C745BF2625E04900653AF2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		14C745C22625E50A00653AF2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		52B8219B62F59595520DCDED /* Pods_InstagramF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF11555FC9133D7458562ED7 /* Pods-InstagramF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramF.debug.xcconfig"; path = "Target Support Files/Pods-InstagramF/Pods-InstagramF.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				1474003D261DC78700A6D4B4 /* Extensions.swift */,
+				14C745BF2625E04900653AF2 /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -118,6 +125,7 @@
 			children = (
 				1475834426259008005C41BB /* ImageUploader.swift */,
 				1475834726259018005C41BB /* AuthService.swift */,
+				14C745BC2625DFDF00653AF2 /* UserService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -157,6 +165,7 @@
 		1474001F261DB04F00A6D4B4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				14C745C22625E50A00653AF2 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -331,12 +340,15 @@
 				1474004B261DEC7C00A6D4B4 /* AuthenticationViewModel.swift in Sources */,
 				14740028261DB2FE00A6D4B4 /* SearchController.swift in Sources */,
 				14740005261DAE4800A6D4B4 /* AppDelegate.swift in Sources */,
+				14C745C32625E50A00653AF2 /* User.swift in Sources */,
 				14740031261DB34400A6D4B4 /* ProfileController.swift in Sources */,
+				14C745C02625E04900653AF2 /* Constants.swift in Sources */,
 				14740025261DB2E900A6D4B4 /* FeedController.swift in Sources */,
 				14740021261DB12800A6D4B4 /* MainTabController.swift in Sources */,
 				1474003E261DC78700A6D4B4 /* Extensions.swift in Sources */,
 				1475834526259008005C41BB /* ImageUploader.swift in Sources */,
 				1475834826259018005C41BB /* AuthService.swift in Sources */,
+				14C745BD2625DFDF00653AF2 /* UserService.swift in Sources */,
 				1475834B26259ED5005C41BB /* ProfileCell.swift in Sources */,
 				14740007261DAE4800A6D4B4 /* SceneDelegate.swift in Sources */,
 				14740045261DD86700A6D4B4 /* RegistrationController.swift in Sources */,
