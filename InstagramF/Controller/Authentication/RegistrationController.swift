@@ -82,7 +82,7 @@ class RegistrationController: UIViewController {
                 return
             }
 
-            print("seccuessfully registered user with firestore")
+            self.dismiss(animated: true, completion: nil)
         }
     }
 
