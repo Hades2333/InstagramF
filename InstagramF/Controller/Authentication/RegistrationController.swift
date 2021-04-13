@@ -11,6 +11,7 @@ class RegistrationController: UIViewController {
 
     private var viewModel = RegistrationViewModel()
     private var profileImage: UIImage?
+    weak var delegate: AuthenticationDelegate?
 
     //MARK: - Properties
     private let plusPhotoButton: UIButton = {
@@ -81,8 +82,7 @@ class RegistrationController: UIViewController {
                 print("DEBUG error \(error.localizedDescription)")
                 return
             }
-
-            self.dismiss(animated: true, completion: nil)
+            self.delegate?.authenticationDidComplete()
         }
     }
 
