@@ -8,6 +8,10 @@
 import UIKit
 import SDWebImage
 
+protocol ProfileHeaderDelegate: class {
+    func header(_ profileHeader: ProfileHeader, didTapActionButtonForUser user: User)
+}
+
 class ProfileHeader: UICollectionReusableView {
 
     //MARK: - Properties
@@ -16,6 +20,8 @@ class ProfileHeader: UICollectionReusableView {
             configure()
         }
     }
+
+    weak var delegate: ProfileHeaderDelegate?
 
     private let profileImageView: UIImageView = {
         let iv = UIImageView()
@@ -135,7 +141,8 @@ class ProfileHeader: UICollectionReusableView {
 
     //MARK: - Actions
     @objc func handleEditProfileFollowTapped() {
-        print("DEBUG handle somthing")
+        guard let viewModel = viewModel else { return }
+        delegate?.header(self, didTapActionButtonForUser: viewModel.user)
     }
 
     //MARK: - Helpers
@@ -144,6 +151,9 @@ class ProfileHeader: UICollectionReusableView {
         nameLabel.text = viewModel.fullname
         profileImageView.sd_setImage(with: viewModel.profileImageUrl)
 
+        editProfileFollowButton.setTitle(viewModel.followButtonText, for: .normal)
+        editProfileFollowButton.setTitleColor(viewModel.followButtonTextColor, for: .normal)
+        editProfileFollowButton.backgroundColor = viewModel.followButtonBackgroundColor
     }
 
     func attributedStatText(value: Int, label: String) -> NSAttributedString {
