@@ -34,6 +34,7 @@
 		14C745C02625E04900653AF2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C745BF2625E04900653AF2 /* Constants.swift */; };
 		14C745C32625E50A00653AF2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C745C22625E50A00653AF2 /* User.swift */; };
 		14C745C62625F46F00653AF2 /* ProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C745C52625F46F00653AF2 /* ProfileHeaderViewModel.swift */; };
+		14E4453A2626D8A70099B520 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E445392626D8A70099B520 /* UserCell.swift */; };
 		D8A124C401EED2E7CCB63113 /* Pods_InstagramF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B8219B62F59595520DCDED /* Pods_InstagramF.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,7 @@
 		14C745BF2625E04900653AF2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		14C745C22625E50A00653AF2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		14C745C52625F46F00653AF2 /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderViewModel.swift; sourceTree = "<group>"; };
+		14E445392626D8A70099B520 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		52B8219B62F59595520DCDED /* Pods_InstagramF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF11555FC9133D7458562ED7 /* Pods-InstagramF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramF.debug.xcconfig"; path = "Target Support Files/Pods-InstagramF/Pods-InstagramF.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -161,6 +163,7 @@
 				1475835026259EF7005C41BB /* Profile */,
 				1474003A261DC6C100A6D4B4 /* FeedCell.swift */,
 				14740047261DE1E600A6D4B4 /* CustomTextField.swift */,
+				14E445392626D8A70099B520 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				1474002B261DB31B00A6D4B4 /* ImageSelectorController.swift in Sources */,
 				1474002E261DB33000A6D4B4 /* NotificationController.swift in Sources */,
 				1474004B261DEC7C00A6D4B4 /* AuthenticationViewModel.swift in Sources */,
+				14E4453A2626D8A70099B520 /* UserCell.swift in Sources */,
 				14740028261DB2FE00A6D4B4 /* SearchController.swift in Sources */,
 				14740005261DAE4800A6D4B4 /* AppDelegate.swift in Sources */,
 				14C745C32625E50A00653AF2 /* User.swift in Sources */,
