@@ -12,11 +12,15 @@ private let reuseIdentifier = "Cell"
 
 class FeedController: UICollectionViewController {
 
+    //MARK: - Properties
+    private var posts = [Post]()
+
     //MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.backgroundColor = .white
         configureUI()
+        fetchPosts()
     }
 
     //MARK: - Actions
@@ -33,6 +37,14 @@ class FeedController: UICollectionViewController {
         }
     }
 
+    //MARK: - API
+    func fetchPosts() {
+        PostService.fetchPosts { posts in
+            self.posts = posts
+            self.collectionView.reloadData()
+        }
+    }
+
     //MARK: - Helpers
     func configureUI() {
         collectionView.register(FeedCell.self, forCellWithReuseIdentifier: reuseIdentifier)
@@ -46,7 +58,7 @@ class FeedController: UICollectionViewController {
 //MARK: - UICollectionViewDataSource
 extension FeedController {
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        5
+        posts.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
