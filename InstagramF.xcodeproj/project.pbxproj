@@ -35,6 +35,8 @@
 		14C745C32625E50A00653AF2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C745C22625E50A00653AF2 /* User.swift */; };
 		14C745C62625F46F00653AF2 /* ProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C745C52625F46F00653AF2 /* ProfileHeaderViewModel.swift */; };
 		14E3694C2626EA1D00F18966 /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E3694B2626EA1D00F18966 /* UserCellViewModel.swift */; };
+		14E3695126281EEE00F18966 /* UploadPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E3695026281EEE00F18966 /* UploadPostController.swift */; };
+		14E369542628223300F18966 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E369532628223300F18966 /* InputTextView.swift */; };
 		14E4453A2626D8A70099B520 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E445392626D8A70099B520 /* UserCell.swift */; };
 		D8A124C401EED2E7CCB63113 /* Pods_InstagramF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B8219B62F59595520DCDED /* Pods_InstagramF.framework */; };
 /* End PBXBuildFile section */
@@ -71,6 +73,8 @@
 		14C745C22625E50A00653AF2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		14C745C52625F46F00653AF2 /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderViewModel.swift; sourceTree = "<group>"; };
 		14E3694B2626EA1D00F18966 /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
+		14E3695026281EEE00F18966 /* UploadPostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostController.swift; sourceTree = "<group>"; };
+		14E369532628223300F18966 /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
 		14E445392626D8A70099B520 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		52B8219B62F59595520DCDED /* Pods_InstagramF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF11555FC9133D7458562ED7 /* Pods-InstagramF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramF.debug.xcconfig"; path = "Target Support Files/Pods-InstagramF/Pods-InstagramF.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 			children = (
 				1474003D261DC78700A6D4B4 /* Extensions.swift */,
 				14C745BF2625E04900653AF2 /* Constants.swift */,
+				14E369532628223300F18966 /* InputTextView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 				1474002A261DB31B00A6D4B4 /* ImageSelectorController.swift */,
 				1474002D261DB33000A6D4B4 /* NotificationController.swift */,
 				14740030261DB34400A6D4B4 /* ProfileController.swift */,
+				14E3695026281EEE00F18966 /* UploadPostController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -341,6 +347,7 @@
 			files = (
 				14740048261DE1E600A6D4B4 /* CustomTextField.swift in Sources */,
 				1475834E26259EE5005C41BB /* ProfileHeader.swift in Sources */,
+				14E3695126281EEE00F18966 /* UploadPostController.swift in Sources */,
 				14740009261DAE4800A6D4B4 /* ViewController.swift in Sources */,
 				14740042261DD85900A6D4B4 /* LoginController.swift in Sources */,
 				1474003B261DC6C100A6D4B4 /* FeedCell.swift in Sources */,
@@ -353,6 +360,7 @@
 				14C745C32625E50A00653AF2 /* User.swift in Sources */,
 				14740031261DB34400A6D4B4 /* ProfileController.swift in Sources */,
 				14C745C62625F46F00653AF2 /* ProfileHeaderViewModel.swift in Sources */,
+				14E369542628223300F18966 /* InputTextView.swift in Sources */,
 				14C745C02625E04900653AF2 /* Constants.swift in Sources */,
 				14740025261DB2E900A6D4B4 /* FeedController.swift in Sources */,
 				14E3694C2626EA1D00F18966 /* UserCellViewModel.swift in Sources */,
