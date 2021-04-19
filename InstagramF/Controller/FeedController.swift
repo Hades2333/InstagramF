@@ -112,4 +112,14 @@ extension FeedController: FeedCellDelegate {
         let controller = CommentController(post: post)
         navigationController?.pushViewController(controller, animated: true)
     }
+
+    func cell(_ cell: FeedCell, didLikePost post: Post) {
+        cell.viewModel?.post.didLike.toggle()
+        
+        if post.didLike {
+
+        } else {
+
+        }
+    }
 }
