@@ -119,7 +119,13 @@ extension FeedController: FeedCellDelegate {
         if post.didLike {
 
         } else {
-
+            PostService.likePost(post: post) { error in
+                if let error = error {
+                    print("DEBUG: failed to like post error")
+                }
+                cell.likeButton.setImage(#imageLiteral(resourceName: "like_selected"), for: .normal)
+                cell.likeButton.tintColor = .red
+            }
         }
     }
 }
