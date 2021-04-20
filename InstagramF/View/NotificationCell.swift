@@ -26,7 +26,7 @@ class NotificationCell: UITableViewCell {
     private let infoLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.boldSystemFont(ofSize: 16)
-        label.text = "Venom"
+        label.numberOfLines = 0
         return label
     }()
 
@@ -64,17 +64,18 @@ class NotificationCell: UITableViewCell {
         profileImageView.layer.cornerRadius = 48 / 2
         profileImageView.centerY(inView: self, leftAnchor: leftAnchor, paddingLeft: 12)
 
-        addSubview(infoLabel)
-        infoLabel.centerY(inView: self, leftAnchor: profileImageView.rightAnchor, paddingLeft: 8)
-
         addSubview(followButton)
         followButton.centerY(inView: self)
-        followButton.anchor(right: rightAnchor, paddingRight: 12, width: 100, height: 32)
+        followButton.anchor(right: rightAnchor, paddingRight: 12, width: 88, height: 32)
 
         addSubview(postImageView)
         postImageView.centerY(inView: self)
         postImageView.anchor(right: rightAnchor, paddingRight: 12, width: 40, height: 40)
         followButton.isHidden = true
+
+        addSubview(infoLabel)
+        infoLabel.centerY(inView: self, leftAnchor: profileImageView.rightAnchor, paddingLeft: 8)
+        infoLabel.anchor(right: followButton.leftAnchor, paddingRight: 4)
     }
     
     required init?(coder: NSCoder) {
@@ -97,6 +98,10 @@ class NotificationCell: UITableViewCell {
         guard let viewModel = viewModel else { return }
 
         profileImageView.sd_setImage(with: viewModel.profileImageUrl)
-        print(viewModel.profileImageUrl)
+        postImageView.sd_setImage(with: viewModel.postImageUrl)
+        infoLabel.attributedText = viewModel.notificationMessage
+
+        followButton.isHidden = !viewModel.shouldHideImage
+        postImageView.isHidden = viewModel.shouldHideImage
     }
 }
