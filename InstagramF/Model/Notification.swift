@@ -30,6 +30,7 @@ struct Notification {
     let id: String
     let profileImageUrl: String
     let username: String
+    var userIsFollowed = false
 
     init(dictionaty: [String: Any]) {
         self.timestamp = dictionaty["timestamp"] as? Timestamp ?? Timestamp(date: Date())
