@@ -20,6 +20,7 @@ class FeedController: UICollectionViewController {
     var post: Post? {
         didSet {
             checkIfUserLikedPosts()
+            collectionView.reloadData()
         }
     }
 
@@ -29,6 +30,10 @@ class FeedController: UICollectionViewController {
         collectionView.backgroundColor = .white
         configureUI()
         fetchPosts()
+
+        if post != nil {
+            checkIfUserLikedPosts()
+        }
     }
 
     //MARK: - Actions
@@ -65,7 +70,6 @@ class FeedController: UICollectionViewController {
         if let post = post {
             PostService.checkIfUserLikedPost(post: post) { didLike in
                 self.post?.didLike = didLike
-                self.collectionView.reloadData()
             }
         } else {
             self.posts.forEach { post in
